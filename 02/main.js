@@ -7,6 +7,7 @@ const lastResult = [];
 const random = (min, max) => ~~(Math.random() * (max - min + 1) + min);
 
 randomBtn.addEventListener("click", () => {
+  resultContainer.style.color = "black";
   const maxVal = inputCount.value;
   const interval = setInterval(() => {
     resultContainer.innerHTML = random(1, maxVal);
