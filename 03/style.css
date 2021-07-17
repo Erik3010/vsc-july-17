@@ -17,7 +17,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: gray;
+  background: #353b48;
 }
 
 .card {
@@ -28,6 +28,7 @@ body {
   width: 320px;
   transform: perspective(1000px);
   transition: .3s;
+  box-shadow: 10px 0px 20px rgba(255,255,255,0.1);
 }
 
 .card-body {
