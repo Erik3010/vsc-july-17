@@ -26,6 +26,8 @@ body {
   background: white;
   border-radius: 1rem;
   width: 320px;
+  transform: perspective(1000px);
+  transition: .3s;
 }
 
 .card-body {
