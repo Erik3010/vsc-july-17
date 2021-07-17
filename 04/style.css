@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-container {
+	position: relative;
+  overflow: hidden;
+  width: 500px;
+  height: 300px;
+}
+
+.slider-item-container {
+  display: flex;
+	transition: .3s;
+}
+
+button {
+	position: absolute;
+	top: 50%;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0,0,0,0.5);
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+
+button#next {
+	right: 0;
+}
