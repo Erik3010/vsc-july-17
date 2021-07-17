@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI";
+}
+
+.container {
+  margin: 5rem auto;
+  text-align: center;
+}
+
+#result {
+  margin: 1rem 0;
+}
+
+button {
+  cursor: pointer;
+}
